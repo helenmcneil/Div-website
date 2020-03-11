@@ -1,0 +1,110 @@
+<style>
+	html {font-family: Arial, Times, san-serif; color:       #4b0082;}
+	body {background: #a67b5b; margin: 0;}
+	#container {
+		width: 800px;
+		margin:0 auto;
+		background: #daa520;
+	}
+
+	#header {
+		width: 100%;
+		height: 60px;
+		border-bottom:1px solid #ff00ff;
+		background: #ff77ff;
+
+}
+
+	#logo { 
+		float: left;
+		width: 40px;
+		height: 40px;
+		margin: 10px;
+		background: #ff00ff;
+	}
+
+	#top_info { 
+		float: left;
+		width: 100px;
+		height: 40px;
+		margin: 10px;
+		border: solid #ff00ff 1px;
+		background: #ff00ff
+	} 
+
+	#nav_bar {
+		height: 20px;
+		clear: both;
+	}
+
+	#nav_bar ul {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
+
+	#nav_bar ul li {
+		padding: 10px;
+		float: left;
+	}
+
+	#nav_bar ul li a{
+		font-size: 12px;
+		float: left;
+		padding: 0px, 0px, 0px, 20px;
+	}
+
+	#banner {
+		height: 200px;
+		clear: both;
+		background: #ffd700;
+		padding: 20px;
+	}
+
+	#left_side {
+		width: 350px;
+		height: 400px;
+		float: left;
+		background: #ff00ff; 
+		padding: 20px;
+		border: solid 1px #f400a1;
+		background:#ff00ff
+	}
+
+	#right_side {
+		width: 350px;
+		height: 400px;
+		float: right; 
+		background: #ff00ff; 
+		padding: 20px;
+		border: solid 1px #f400a1; 
+	}
+
+	.main_container{
+		text-align: center;
+		background: #f400a1;
+	}
+
+	.heading {
+		max-width: 120px;
+		margin: auto;
+		padding: 50px 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	/*.team_member {
+		margin: 20px;
+		padding: 20px;
+		max-width: 30px;
+		box-sizing: border-box;
+	}*/
+
+	#footer { 
+		padding: 20px; 
+		clear: both; 
+		background: #daa520;
+	}
+	
+	</style>
